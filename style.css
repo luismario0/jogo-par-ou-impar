@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2F4F4F;
+}
+ input{
+    background: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+ }
+ #gerador{
+    background: black;
+    color: white;
+    padding: 12px;
+    margin-top: 4%;
+    width: 183px;
+    text-align: center;
+ }
+ #number{
+   margin-top: 3%;
+ }
+
+label{
+    border: 2px solid;
+    border-radius: 4px;
+    background: red;
+    color: black;
+    margin-top: 2em;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.parimp{
+    padding: 25px;
+}
+#result{
+    margin-top: 8%;
+    text-transform: uppercase;  
+    background: red;
+    border: 2px solid;
+    border-radius: 4px;
+    background: red;
+    color: black;
+}
